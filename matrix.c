@@ -166,5 +166,5 @@ void multiply_matrix(int **matrix_A, int **matrix_B, int ROW_A, int COLUMN_A, in
 
     print_matrix(matrix_C, ROW_A, COLUMN_B); //print_matrix함수 호출
 
-    free(matrix_C); //matrix_C 행렬 메모리 해제
+    free(matrix_C); //matrix_C 행렬 메모리 해제.
 }
